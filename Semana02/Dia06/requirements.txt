@@ -1,0 +1,10 @@
+#Flask Microframework
+Flask
+#Flask-SQLALCHEMY : ORM para manipular bases de datos relacionales
+Flask-SQLAlchemy
+#flask-marshmallow : ORM para serializar objetos en formato JSON
+flask-marshmallow
+#marshmallow-sqlalchemy : integra mashermallow con flask-sqlalchemy
+marshmallow-sqlalchemy
+#mysqlclient : cliente para mysql
+mysqlclient

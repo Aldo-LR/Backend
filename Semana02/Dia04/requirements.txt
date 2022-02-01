@@ -1,0 +1,12 @@
+#Instalar de forma rapida las librerias que necesito
+#para integrar python con firebase
+pyrebase4
+#Para implementar web con python utilizamos el microframework flask
+Flask
+#Flask-bootstrap: permite integrar bootstrap con flask
+flask-bootstrap
+#Flask-WTF: permite integrar formularios con flask
+flask-wtf
+#Sirve para utilizar variables de entorno
+python-dotenv
+
