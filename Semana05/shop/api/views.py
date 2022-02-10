@@ -12,21 +12,20 @@ class IndexView(APIView):
         return Response(context)
     
 class CategoriaView(APIView):
-    
     def get(self,request):
         dataCategoria = Categoria.objects.all()
         serCategoria = CategoriaSerializer(dataCategoria,many=True)
         return Response({'ok':True,
                         'content':serCategoria.data})
+        
 class ProductoView(APIView):
-    
     def get(self,request):
         dataProducto = Producto.objects.all()
         serProducto = ProductoSerializer(dataProducto,many=True)
         return Response({'ok':True,
                         'content':serProducto.data})
-class ClienteView(APIView):
         
+class ClienteView(APIView):
         def get(self,request):
             dataCliente = Cliente.objects.all()
             serCliente = ClienteSerializer(dataCliente,many=True)
